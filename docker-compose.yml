@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  fasteroutcomesdemandlettergeneration:
+    image: fasteroutcomesdemandlettergeneration
+    build:
+      context: .
+      dockerfile: ./Dockerfile
